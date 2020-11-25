@@ -1,0 +1,42 @@
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.header button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	cursor: pointer;
+	padding: 10px 20px;
+}
+
+.box {
+	border: 2px solid var(--primary);
+	padding: 5vw;
+}
+
+.box > div {
+	display: flex;
+	flex-direction: column;
+	margin: 15px 0;
+}
+
+.box label {
+	font-weight: bold;
+	color: var(--primary);
+}
+
+.box input,
+.box select {
+	padding: 10px;
+	border: 2px solid var(--backdrop);
+	font-weight: bold;
+}
+
+.saveBtn:hover {
+	cursor: pointer;
+	background-color: var(--success);
+	color: var(--white);
+}

@@ -1,0 +1,40 @@
+.header {
+	background: var(--primary);
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo {
+	color: var(--white);
+	letter-spacing: 4px;
+	text-shadow: 2px 2px 14px var(--black);
+}
+
+.username {
+	color: var(--white);
+	letter-spacing: 4px;
+	text-shadow: 2px 2px 14px var(--black);
+	margin-right: 10px;
+}
+
+.button {
+	background-color: var(--white);
+	padding: 8px 15px;
+	border: none;
+	font-weight: bold;
+	color: var(--primary);
+	cursor: pointer;
+}
+
+.button:focus {
+	outline: none;
+}
+
+.button:active {
+	outline: none;
+	transform: scale(0.9);
+}
